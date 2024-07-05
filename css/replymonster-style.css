@@ -1,0 +1,106 @@
+.replymonster-settings {
+  --action-primary-color: #3056d3;
+  --text-primary-color: #4f4f4f;
+  --text-secondary-color: #637381;
+  --border-color: #e0e0e0;
+}
+
+/* css/replymonster-style.css */
+.replymonster-settings {
+  max-width: 724px;
+  margin: 50px auto 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  color: var(--text-primary-color);
+  padding: 50px 80px;
+}
+
+.replymonster-settings__logo {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.replymonster-settings h1 {
+  text-align: center;
+
+  font-size: 24px;
+  font-weight: bold;
+
+  margin-bottom: 20px;
+  color: inherit;
+}
+
+.replymonster-settings__form .form-table th,
+.replymonster-settings__form .form-table td {
+  vertical-align: middle;
+}
+.replymonster-settings__form .form-table th {
+  text-align: right;
+  font-weight: 400;
+}
+
+.replymonster-settings__form .form-group label {
+  display: none;
+}
+
+.replymonster-settings__form h2 {
+  display: none;
+}
+
+.replymonster-settings label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.replymonster-settings input[type="text"] {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.replymonster-settings input[type="submit"] {
+  padding: 10px;
+  background-color: var(--action-primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 0 auto;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.submit {
+  margin-top: 32px !important;
+}
+
+.replymonster-settings input[type="submit"]:hover {
+  background-color: #374bb5;
+}
+
+.replymonster-settings .error {
+  color: red;
+  font-size: 14px;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  display: none;
+}
+
+.replymonster-settings__footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-top: 20px;
+}
+.replymonster-settings__footer p {
+  font-size: 16px;
+}
