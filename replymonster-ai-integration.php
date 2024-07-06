@@ -3,7 +3,7 @@
 Plugin Name: ReplyMonster AI Chatbot Integration
 Description: Integrate ReplyMonster AI Chatbot into your website in a few clicks
 Version: 1.0
-Author: ReplyMonster
+Author: replymonsterai
 */
 
 if (!defined('ABSPATH')) {

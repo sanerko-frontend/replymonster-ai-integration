@@ -1,6 +1,6 @@
 === ReplyMonster AI Chatbot Integration ===
-Contributors: 
-Tags: customer support, ai, chatbot 
+Contributors: replymonsterai
+Tags: customer support, AI, chatbot
 Requires at least: 4.9
 Tested up to: 6.5
 Requires PHP: 5.4
