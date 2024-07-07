@@ -2,7 +2,7 @@
 /*
 Plugin Name: ReplyMonster AI Chatbot Integration
 Description: Integrate ReplyMonster AI Chatbot into your website in a few clicks
-Version: 1.0
+Version: 1.0.0
 Author: replymonsterai
 */
 
@@ -76,8 +76,20 @@ function replymonster_enqueue_admin_assets($hook)
     if ($hook !== 'settings_page_replymonster-settings') {
         return;
     }
-    wp_enqueue_style('replymonster-style', plugin_dir_url(__FILE__) . 'css/replymonster-style.css');
-    wp_enqueue_script('replymonster-script', plugin_dir_url(__FILE__) . 'js/replymonster-script.js', array(), false, true);
+    wp_enqueue_style(
+        'replymonster-style',
+        plugin_dir_url(__FILE__) . 'css/replymonster-style.css',
+        array(),
+        '1.0.0'
+    );
+
+    wp_enqueue_script(
+        'replymonster-script',
+        plugin_dir_url(__FILE__) . 'js/replymonster-script.js',
+        array(),
+        '1.0.0',
+        true
+    );
 }
 
 // Render the settings page

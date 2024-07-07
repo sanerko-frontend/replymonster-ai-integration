@@ -1,10 +1,10 @@
 === ReplyMonster AI Chatbot Integration ===
 Contributors: replymonsterai
-Tags: customer support, AI, chatbot
+Tags: customer support, ai, chatbot
 Requires at least: 4.9
 Tested up to: 6.5
 Requires PHP: 5.4
-Stable tag: 9.0.5
+Stable tag: 1.0.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
