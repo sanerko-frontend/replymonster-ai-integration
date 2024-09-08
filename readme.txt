@@ -21,6 +21,12 @@ Don't lose users due to long waiting time for a response on your website with Re
 - **24/7 Availability:** Offer round-the-clock assistance.
 - **Easy Integration:** Seamlessly integrate with WooCommerce or Shopify.
 
+This plugin connects to the ReplyMonster AI service, which processes user data to provide AI-powered chatbot functionality. To use the plugin, you must have an API key from ReplyMonster, which can be obtained by signing up on the [ReplyMonster website](https://replymonster.ai/).
+
+== Third-Party Service Notice ==
+
+This plugin utilizes the **ReplyMonster AI** service, a third-party platform, to provide chatbot functionality. By using this plugin, you agree to the [terms](https://playorium.com/chatgpt/tos) and [privacy policy](https://replymonster.ai/policy) of [ReplyMonster AI](https://replymonster.ai/).
+
 == Installation ==
 
 * Navigate to Add New Plugin page within your WordPress

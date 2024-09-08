@@ -4,6 +4,8 @@ Plugin Name: ReplyMonster AI Chatbot Integration
 Description: Integrate ReplyMonster AI Chatbot into your website in a few clicks
 Version: 1.0.0
 Author: replymonsterai
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 if (!defined('ABSPATH')) {
